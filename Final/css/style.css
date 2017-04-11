@@ -1,4 +1,4 @@
-/* Orange #ff9000, blue #0004ff */
+/* Orange #ff6600, blue #0040ff */
 * {
   margin: 0;
   padding: 0;
@@ -35,6 +35,7 @@ body {
   border: 1px solid #E2E1E1;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin: 25px;
+  padding: 5px;
 }
 
 .flex-item {
@@ -44,15 +45,14 @@ body {
 
 h3 {
   font-size: 22pt;
-  color: #5B5B5B;
+  color: #ff6600;
   text-decoration: underline;
   margin-top: 10px;
-  margin-bottom: 2px;
 }
 
 .results, .schedule {
   color: #6B6A6A;
-  margin-top: 20px;
+  margin-top: 10px;
   letter-spacing: .45px;
   line-height: 140%;
   text-align: left;
@@ -65,15 +65,14 @@ h3 {
   list-style-position: outside;
 }
 
-.results li:before {
-  content: '✔';
-  margin-left: -1em;
-  margin-right: 8px;
-}
-
 .schedule li {
   list-style-position: inside;
   list-style-type: none;
   text-align: center;
   padding: 4px;
+}
+
+.schedule a {
+  color: #6B6A6A;
+  text-decoration: none;
 }
