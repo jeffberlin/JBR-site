@@ -1,14 +1,15 @@
 /* FOOTER */
+
 .flex-footer {
   padding: 5px;
-  border-top: 1px solid black;
   text-align: center;
-  display: inline-block;
+  background-color: #E2E1E1;
 }
 
-h5 {
-  font-size: 16pt;
+.thanks {
+  font-size: 20pt;
   color: #ff6600;
+  margin-bottom: 10px;
 }
 
 .flex-footer img {
@@ -21,16 +22,19 @@ h5 {
   width: 80px;
   height: auto;
 }
+
 #braille {
   width: 120px;
   height: 34px;
   margin-bottom: -2px;
 }
+
 #dmack {
   width: 100px;
   height: 27px;
   margin-bottom: 1px;
 }
+
 #gopro {
   width: 100px;
   height: auto;
@@ -39,21 +43,20 @@ h5 {
 /* SECOND ROW */
 
 .secondrow {
-  
+  padding-top: 10px;  
 }
 
 #piaa {
   width: 110px;
   height: auto;
-/*  margin-bottom: 26px;
-*/}
+}
+
 #subaru {
   width: 140px;
   height: auto;
-/*  margin-bottom: 33px;
-*/}
+}
+
 #fua {
   width: 150px;
   height: auto;
-/*  margin-bottom: 19px;
-*/}
+}

@@ -19,14 +19,16 @@ body {
 
 .flex-container {
   position: fixed;
-  background-color: #E2E1E1;
   width: 100%;
   height: 80px;
 }
 
+.pictures img {
+}
+
 .flex-info {
-  display: inline-block;
   margin-top: 70px;
+  display: inline-block;
 }
 
 .flex-item {
