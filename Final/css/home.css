@@ -10,9 +10,9 @@ body {
 }
 
 .logo img {
-  width: 280px;
+  width: 250px;
   height: auto;
-  margin-top: -65px;
+  margin-top: 3px;
   margin-bottom: -100px;
   float: left;
 }
